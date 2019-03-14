@@ -1,0 +1,140 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	border: 2px solid black;
+	margin: 180px;
+}
+
+ul {
+	list-style: none;
+	text-align: right;
+	display: inline;
+	float: right;
+}
+
+li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: 600;
+}
+
+header {
+	border-bottom: 3px solid #048eaa;
+}
+
+footer {
+	text-align: center;
+	height: 150px;
+	padding: 30px 0px 0px 0px;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	font-weight: normal;
+	padding: 30px;
+	font-size: 26pt;
+}
+
+h2 {
+	font-weight: 800;
+}
+
+input[type=text] {
+	padding: 15px 0px;
+	border: solid black 1px;
+	border-radius: 2px 2px 2px 2px;
+	width: 100%;
+}
+
+input[type=submit] {
+	padding: 13px;
+	border: none;
+	border-radius: 2px 2px 2px 2px;
+	margin-top: 20px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 12pt;
+}
+
+form {
+	width: 33%;
+	margin: auto;
+}
+
+label {
+	text-align: left;
+}
+
+.boldtitle {
+	font-weight: 800;
+}
+
+.bottomdogs {
+	display: inline-block;
+	padding: 20px;
+}
+
+.dogprofiles {
+	width: 29%;
+	display: inline-block;
+	margin: auto;
+	padding: 0px 15px;
+	text-align: center;
+	font-weight: 600;
+	vertical-align: top;
+}
+
+.whatisdogs {
+	margin: 0px 15px 0px 15px;
+}
+
+.photobox {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/park.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: bottom;
+	background-size: 100%;
+	height: 470px;
+	width: 100%
+}
+
+.logo {
+	margin: 5px 0px 2px 20px;
+}
+
+.photo {
+	border: 4px solid #048eaa;
+	border-radius: 150px 150px 150px 150px;
+	height: 170px;
+}
+
+.darkblue {
+	background-color: #048eaa;
+}
+
+.lightblue {
+	background-color: #75e2e6;
+}
+
+.whitefont {
+	color: white;
+}
+
+.bluebutton {
+	padding: 13px;
+    text-align: center;
+}
+
+.icon {
+	margin: 5px;
+}
+
+.textleft {
+	text-align: left;
+	margin-bottom: 60px;
+}

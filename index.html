@@ -3,32 +3,33 @@
   <head>
 	<title>A Site About Some Dogs</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   </head>
   <body>
-  	<section class="banner">
-  	<img src="images/dog-icon.svg" height="40px" width="40px">
+  	<header class="lightblue">
+  	<img class="logo" src="images/dog-icon.svg" height="45px" width="45px">
   	<ul>
   	  <li>How To Dog</li>
   	  <li>What is Dogs</li>
   	  <li>Facts From Dog</li>
   	</ul>
-  </section>
+  </header>
   <section class="photobox">
-    <h1>A Site About <span class="boldtitle">Some Dogs</span></h1>
-    <img class="photo" src="images/dog1-sq.jpg">
+    <h1 class="whitefont">A Site About <span class="boldtitle">Some Dogs</span></h1>
+    <img class="topdog photo lightblue" src="images/dog1-sq.jpg">
     <form>
-      Name
+      <label class="whitefont" for="name">Name</label>
       <br>
-      <input type="text" name="name">
+      <input type="text" name="name" id="name">
       <br>
-      <input type="submit" name="namethisdog" value="Name This Dog">
+      <input class="lightblue" type="submit" name="namethisdog" value="Name This Dog">
     </form>
   </section>
-  <section class="dogprofiles">
-  	<div class="dogbox">
+  <section class="bottomdogs">
+  	<div class="threecolumn dogprofiles">
   	  <h2>How To Dog</h2>
-  	  <img class="photo" src="images/dog2-sq.jpg">
-  	  <p>Dat tungg tho pupperino length
+  	  <img class="photo darkblue" src="images/dog2-sq.jpg">
+  	  <p class="textleft">Dat tungg tho pupperino length
 boy. borkdrive aqua doggo.
 Maximum borkdrive long doggo
 extremely cuuuuuute you are doing
@@ -37,12 +38,12 @@ boys doggo doge. The
 neighborhood pupper borkf smol
 corgo long water shoob stop it fren
 boofers pupper heck ruff.</p>
-    <p class="bluebutton">How</p>
+      <p class="threecolumn bluebutton darkblue whitefont">How</p>
   	</div>
-  	<div class="dogprofiles">
-  	<h2>What Is Dog</h2>
-  	<img class="photo" src="images/dog3-sq.jpg">
-  	  <p>Long doggo smol borking doggo
+  	<div class="threecolumn dogprofiles whatisdogs">
+  	  <h2>What Is Dogs</h2>
+  	  <img class="photo darkblue" src="images/dog3-sq.jpg">
+  	  <p class="textleft">Long doggo smol borking doggo
 with a long snoot for pats
 pupperino h*ck heckin angery
 woofer shoober aqua doggo heck
@@ -52,12 +53,12 @@ angery woofer pupper. ruff
 adorable doggo very hand that feed
 shibe. Extremely cuuuuuute corgo
 waggy wags stop it fren.</p>
-    <p class="bluebutton">What</p>
+      <p class="threecolumn bluebutton darkblue whitefont">What</p>
   	</div>
-  	<div class="dogprofiles">
-  	<h2>Facts From Dog</h2>
-  	<img class="photo" src="images/dog4-sq.jpg">
-  	  <p>Most angery pupper I have ever
+  	<div class="threecolumn dogprofiles">
+  	  <h2>Facts From Dog</h2>
+  	  <img class="photo darkblue" src="images/dog4-sq.jpg">
+  	  <p class="textleft">Most angery pupper I have ever
 seen such treat heck, dat tungg tho.
 You are doin me a concern shibe
 such treat ruff heck, stop it fren ur
@@ -65,15 +66,15 @@ givin me a spook. Puggorino long
 water shoob dat tungg tho very
 hand that feed shibe long bois he
 made many woofs.</p>
-    <p class="bluebutton">Facts</p>
+      <p class="threecolumn bluebutton darkblue whitefont">Facts</p>
   	</div>
   </section>
-  <footer>
-    <p>Learn About Dogs Online</p>
-    <img class="icon" src="images/twitter.svg">
-    <img class="icon" src="images/instagram.svg">
-    <img class="icon" src="images/facebook.svg">
-    <img class="icon" src="images/linkedin.svg">
-  </footer>
+    <footer class="darkblue">
+      <p class="whitefont">Learn About Dogs Online</p>
+      <img class="icon" src="images/twitter.svg" height="40px width="40px">
+      <img class="icon" src="images/instagram.svg" height="40px width="40px">
+      <img class="icon" src="images/facebook.svg" height="40px width="40px">
+      <img class="icon" src="images/linkedin.svg" height="40px width="40px">
+    </footer>
   </body>
 </html>
