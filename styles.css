@@ -64,10 +64,14 @@ input[type=submit] {
 form {
 	width: 33%;
 	margin: auto;
+	margin-top: 10px;
 }
 
 label {
-	text-align: left;
+font-size: 12pt;
+text-align: left;
+display: block;
+margin-bottom: 3px;
 }
 
 .boldtitle {
@@ -82,11 +86,13 @@ label {
 .dogprofiles {
 	width: 29%;
 	display: inline-block;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px 15px;
 	text-align: center;
 	font-weight: 600;
-	vertical-align: top;
+/*	vertical-align: top;
+*/	height: 600px;
 }
 
 .whatisdogs {
@@ -126,8 +132,9 @@ label {
 }
 
 .bluebutton {
-	padding: 13px;
+	padding: 12px 0px 0px 0px;
     text-align: center;
+    height: 35px;
 }
 
 .icon {
@@ -136,5 +143,6 @@ label {
 
 .textleft {
 	text-align: left;
-	margin-bottom: 60px;
+	margin: 30px 0px 60px 0px;
+	height: 170px;
 }
