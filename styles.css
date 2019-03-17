@@ -8,10 +8,21 @@ body {
 }
 
 ul {
-	list-style: none;
 	text-align: right;
 	display: inline;
 	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
 }
 
 li {
@@ -23,6 +34,7 @@ li {
 
 header {
 	border-bottom: 3px solid #048eaa;
+	list-style: none;
 }
 
 footer {
