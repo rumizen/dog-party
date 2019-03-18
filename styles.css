@@ -62,7 +62,7 @@ input[type=text] {
 	width: 100%;
 }
 
-input[type=submit] {
+input[type=button] {
 	padding: 13px;
 	border: none;
 	border-radius: 2px 2px 2px 2px;

@@ -1,10 +1,13 @@
-var formValue = document.querySelector('#text-input').value ;
-// var titleText = document.querySelector('#replace-text') ;
-var titleText = document.getElementById("replace-text").innerHTML ;
-var submitButton = document.querySelector('#get-input').value ;
-// submitButton addEventListener("click", someDogs) ;
+var formValue = document.querySelector('#text-input') ;
+var titleText = document.getElementById("replace-text") ;
+var submitButton = document.querySelector('#get-input') ;
+submitButton.addEventListener("click", someDogs) ;
 
-function someDogs() {
-	// Event.preventdefault() ;
-	titleText.innerHTML = `${formValue}` ;
+function someDogs(e) {
+	// event.preventDefault() ;
+	titleText.innerHTML = `${formValue.value}` ;
+	if (formValue.value == "") {
+		titleText.innerHTML = "Some Dogs" ;
+	} ;
 }
+
